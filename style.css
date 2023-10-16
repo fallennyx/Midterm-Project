@@ -1,0 +1,33 @@
+/* Default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+a {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #6a0572;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+/* Special element styles */
+#special-div {
+    background-color: #ff6b6b;
+    padding: 10px;
+}
+
+.special-span {
+    font-weight: bold;
+    color: #ffaa00;
+}

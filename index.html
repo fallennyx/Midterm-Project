@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>This is the story of 15 Chickens</h1>
+    <a href="page2.html" id="interlude">Interlude</a>
+</body>
+<script src="script.js"></script>
+<script>
+    document.getElementById('interlude').addEventListener('click', function() {
+        let audio = new Audio('chicken.mp3');
+        audio.play();
+    });
+</script>
+</html>
