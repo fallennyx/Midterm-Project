@@ -31,18 +31,19 @@ a#interlude {
     text-align: center;
 }
 
-/* Change link style on hover */
 a#link {
-    display: inline-block; /* Ensures that the anchor is treated as a block element */
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: orange; /* Default background color */
-    color: #fff; /* Default text color */
-    border-radius: 10px; /* Rounded corners */
-    text-decoration: none; /* Remove underline on the link */
-    transition: background-color 0.3s; /* Add a smooth transition */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
 }
 
 a#link:hover {
-    background-color: orange; /* Change background color on hover */
+    background-color: orange;
 }
-
+p {
+    font-size: 2.5rem;
+}
