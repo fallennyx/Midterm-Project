@@ -1,0 +1,48 @@
+/* Apply a background color and center the content */
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: orange;
+}
+
+/* Style the heading */
+h1 {
+    font-family: "Arial", sans-serif;
+    color: orange;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+/* Style the link */
+a#interlude {
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+/* Change link style on hover */
+a#link {
+    display: inline-block; /* Ensures that the anchor is treated as a block element */
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: orange; /* Default background color */
+    color: #fff; /* Default text color */
+    border-radius: 10px; /* Rounded corners */
+    text-decoration: none; /* Remove underline on the link */
+    transition: background-color 0.3s; /* Add a smooth transition */
+}
+
+a#link:hover {
+    background-color: orange; /* Change background color on hover */
+}
+
